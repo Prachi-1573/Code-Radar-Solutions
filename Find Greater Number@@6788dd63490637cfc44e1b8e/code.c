@@ -9,5 +9,5 @@ int main(){
     else{
         printf(y);
     }
-    return 0;
+   
 }
