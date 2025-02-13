@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-    int x, y;
-    scanf("%d", x);
-    for ( int i = 1; i <= 10; i++){
-        y = x * i;
-        printf("%d x %d = %d", x, i, y);
+    int x;
+    scanf("%d", &x)
+    int y;
+    for(y=1; y <= 10 ;y++){
+        int t;
+        t = x*y;
+        printf("5 x %d = %d\n", y, t);
     }
-    
-    return 0;
 }
