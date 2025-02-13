@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main(){
-    int marks;
-    scanf("%d", &marks);
-    if (marks <=100 && marks >=90){
+    int m;
+    scanf("%d", &m);
+    if (m <=100 && m >=90){
         printf("A");
     }
-    else if (marks < 90 && marks >= 80){
+    else if (m < 90 && m >= 80){
         printf("B");
     }
-    else if (marks < 80 && marks >= 70){
+    else if (m < 80 && m >= 70){
         printf("C");
     }
-    else if (marks < 70 && marks >= 60){
+    else if (m < 70 && m >= 60){
         printf("D");
     }
     else {
