@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     scanf("%a %b", &a,&b);
-    if(a > b){
+    if(a = b){
         printf("First");
     }
     else if(a < b){
