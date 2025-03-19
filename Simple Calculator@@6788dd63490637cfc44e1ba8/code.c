@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    double num1, num2, result;
+    double num1, num2;
+    int result;
     char operator;
 
     scanf("%lf %lf %c", &num1,&num2,&operator);
