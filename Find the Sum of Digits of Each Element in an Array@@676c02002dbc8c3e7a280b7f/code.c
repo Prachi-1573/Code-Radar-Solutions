@@ -9,7 +9,7 @@ int main(){
         scanf("%d", &arr[i]);
         digit = n%10;
     }
-    int digit;
+    
     for(int i=0;i<n;i++){
         sum+=digit;
     }    
